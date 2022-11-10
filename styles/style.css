@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
 {
   width: auto;
   height: 700px;
-  background-image: url(/img/mainFon.svg);
+  background-image: url(../img/mainFon.svg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -170,7 +170,7 @@ body::-webkit-scrollbar {
   height: 250px;
   background-size: cover;
   margin-top: 100px;
-  background-image: url(/img/paralax.svg);
+  background-image: url(../img/paralax.svg);
 }
 
 .main-servesis
