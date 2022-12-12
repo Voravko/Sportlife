@@ -8,6 +8,14 @@
 
 }
 
+a {
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+ } 
+a:hover { 
+  text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+  color: rgb(255, 255, 255); 
+ }
+ 
 
 body::-webkit-scrollbar {
     width: 0.3em;
