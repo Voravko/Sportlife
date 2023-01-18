@@ -4,40 +4,40 @@
     <link rel="stylesheet" href="style.css" />
     <link href="/styles/verif.css" rel="stylesheet" />
     <link href="/styles/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
 
     <title>Document</title>
   </head>
   <body class="main-theme-black">
 
     <div class="header">   
-      <a href="/index.html">
+      <a href="../index.php">
         <img src="../img/logoWhite.svg" />
       </a>
-      <p class="reg">REGISTRATION</p>
-      <a href = "/index.html"> <div class="button"><p>Назад</p></div></a>
+      <p class="reg">Регистрация</p>
+      <a href = "../index.php"> <div class="button"><p>Назад</p></div></a>
     </div>
 
-    <div class="main-form-verificat">
+    <form class="main-form-verificat" method="post" action="../functions/reg.php">
       <div class="input-container">
-        <input type="text" required="" />
-        <label>LOGIN</label>
+        <input type="text" name = "lg" id = "lg" required="" />
+        <label>Логин</label>
       </div>
       <div class="input-container">
-        <input type="text" id="eme" required="" />
-        <label>E-MAIL</label>
+        <input type="text" id="eme" name = "eme" required="" />
+        <label>Почта</label>
         <span id="errer_eme" class="erorr-message"></span>
       </div>
 
       <div class="input-container">
-        <input type="text" id="ps1" required="" />
-        <label>PASSWORD</label>
-        <span class="erorr-message" id="error_ps"></span>
-      </div>
-      <a href = "profile.html"><button class="verificat-button">
-        <p class="verificat-button-text">NEXT</p>
+        <input type="text" id="ps1" name = "ps1" required="" />
+        <label>Пароль</label>
+      <button class="verificat-button">
+        <p class="verificat-button-text">Далее</p>
       </button>
-    </a>
-    </div>
+      </div>
+    
+  </form>
     <div class="pict">
       <div class="discription-block-about">
         <div class="discription-block-img">

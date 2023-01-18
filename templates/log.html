@@ -4,48 +4,43 @@
     <link rel = "stylesheet" href="style.css"/>
     <link href = "/styles/verif.css" rel = "stylesheet"/>
     <link href = "/styles/style.css" rel = "stylesheet"/>
+    <meta charset="UTF-8" />
 
     <title>Document</title>
 </head>
 <body class = "main-theme-black">
     
        <div class = "header">
-        <a href = "/index.html">
+        <a href = "../index.php">
           <img src="../img/logoWhite.svg" />
         </a>
         <p class = "reg">login</p>
-        <a href = "/index.html"><div class = "button"><p>Назад</p></div></a>
+        <a href = "../index.php"><div class = "button"><p>Назад</p></div></a>
        </div> 
   
-    <div class="main-form-verificat">
+       <form class="main-form-verificat" method="post" action="../functions/log.php">
         <div class="input-container">
-            <input type="text" required=""/>
-            <label>LOGIN</label>
-            
+          <input type="text" name = "lg" required="" />
+          <label>Логин</label>
         </div>
-        
-        
+      
+  
         <div class="input-container">
-            <input type="text" id = "ps1" required=""/>
-            <label>PASSWORD</label>		
-            <span class = "erorr-message" id = "error_ps" ></span>
-        </div>
-        <a href = "profile.html"><button class="verificat-button">
-          <p class="verificat-button-text">NEXT</p>
+          <input type="text" id="ps1" name = "ps1" required="" />
+          <label>Пароль</label>
+        <button class="verificat-button" >
+          <p class="verificat-button-text">Далее</p>
         </button>
-      </a>
-    </div>
+      </div>
+    </form>
     <div class = "pict">
         <div class="discription-block-about">
             <div class="discription-block-img">
               <img src="../img/text.svg" />
             </div>
             <p class="discription-block-p">
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It
-              has roots in a piece of classical Latin literaturвааe from 45 BC, making
-              it over 2000 years old. Richard McClintock, a Latin professor at
-              Hampden-Sydney College in Virginia, looked up one of the more obscure
-              Latin words, consectetur
+              Наша философия – полная самостоятельность и независимость клиента. Покупка абонемента не потребует даже посещения зала – он приобретается через интернет, а в личном кабинете можно отслеживать оставшееся время и продлевать его.
+
             </p>
           </div>
     </div>

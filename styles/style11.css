@@ -5,15 +5,17 @@
 {
     margin: 0 0 0;
     font-family: 'Raleway';
-
+    overflow-x: hidden;
 }
 
 a {
   text-decoration: none; /* Убирает подчеркивание для ссылок */
+  color: black;
  } 
 a:hover { 
-  text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
-  color: rgb(255, 255, 255); 
+  text-decoration: none;
+  color: black;
+   /* Добавляем подчеркивание при наведении курсора на ссылку */
  }
  
 
@@ -74,7 +76,7 @@ body::-webkit-scrollbar {
 .main-conteiner
 {
   display: block;
-  margin-left: 400px;
+  margin-left: 490px;
   color: #FFFFFF;
   margin-top: 70px;
 }
@@ -281,7 +283,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-
+  overflow-y: hidden;
 }
 
 .main-trener-block-card
@@ -396,3 +398,5 @@ body::-webkit-scrollbar {
 {
   padding-right: 50px;
 }
+
+
